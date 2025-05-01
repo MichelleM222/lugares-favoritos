@@ -1,37 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis Lugares Favoritos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* azul claro */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4682b4; /* azul acero */
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #87cefa; /* azul cielo */
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #003366;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            border-radius: 8px;
+        }
+    </style>
 </head>
-
 <body>
-    <h1>Mis Lugares Favoritos del Mundo</h1>
 
-    <ul>
-        <li><a href="#japon">Japón</a></li>
-        <li><a href="#noruega">Noruega</a></li>
-        <li><a href="#peru">Perú</a></li>
-    </ul>
-    <section id="japon">
-        <h2>Japón</h2>
-        <img src="japon.jpeg" width="70%">
-        <p>Japón combina tecnología moderna y tradiciones antiguas.</p>
-    </section>
-    
-    <section id="noruega">
-        <h2>Noruega</h2>
-        <img src="noruega.jpeg" width="70%">
-        <p>Noruega tiene paisajes espectaculares y fiordos impresionantes.</p>
-    </section>
-    
-    <section id="peru">
-        <h2>Perú</h2>
-        <img src="peru.jpeg" width="70%">
-        <p>Perú alberga Machu Picchu y una rica cultura inca.</p>
-    </section>
-    
+    <header>
+        <h1>Mis Lugares Favoritos del Mundo</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#japon">Japón</a></li>
+            <li><a href="#noruega">Noruega</a></li>
+            <li><a href="#peru">Perú</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="japon">
+            <h2>Japón</h2>
+            <img src="japon.jpeg" alt="Vista del Monte Fuji en Japón" width="70%">
+            <p>Japón combina tecnología moderna y tradiciones antiguas, Japón es un país montañoso, con dos tercios de su territorio cubiertos de bosques. La mayoría de las zonas tienen clima templado con cuatro estaciones marcadas, aunque Okinawa, al sur, es subtropical y Hokkaido, al norte, es subártico. Por consiguiente, en Japón existe una gran diversidad de fauna y flora.</p>
+        </section>
+
+        <section id="noruega">
+            <h2>Noruega</h2>
+            <img src="noruega.jpeg" alt="Fiordo en Noruega al atardecer" width="70%">
+            <p>Noruega tiene paisajes espectaculares y fiordos impresionantes, Noruega ofrece mil y una cosas que ver y hacer: vibrantes zonas urbanas, hermosos fiordos, la aurora boreal o remotas aldeas al norte del Círculo polar ártico.</p>
+        </section>
+
+        <section id="peru">
+            <h2>Perú</h2>
+            <img src="peru.jpeg" alt="Vista panorámica de Machu Picchu en Perú" width="70%">
+            <p>Perú alberga Machu Picchu y una rica cultura inca, Presenta una variedad de paisajes, desde montañas y playas hasta desiertos y selvas tropicales.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Mis Lugares Favoritos hecho por Michelle Morales</p>
+        <p><a href="https://www.lonelyplanet.com/" target="_blank" style="color: #ffffff;">Visita una guía de viajes</a></p>
+    </footer>
+
 </body>
 </html>
